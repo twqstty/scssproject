@@ -4,16 +4,20 @@
 body {
     font-family: Rubik, sans-serif;
     line-height: 1.5;
-    margin: 0 150px;
+
 }
 header {
+    margin: 0 150px;
     .menushka {
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: #4F5665;
     .lefttop{
-        margin-left: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
         p {
             width: 104px;
             height: 24px;
@@ -63,6 +67,7 @@ header {
 
 }
 main{
+    margin: 0 150px;
     .main1{
         padding: 100px 0;
         display: flex;
@@ -444,6 +449,7 @@ main{
         .boxes{
             display: flex;
             justify-content: space-between;
+            gap: 10px;
             
         }
         .boxx1{
@@ -556,7 +562,7 @@ main{
 footer {
     width: 1440px;
     height: 600px;
-    padding: 185px 150px 100px 150px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -629,12 +635,12 @@ footer {
             .silka {
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
                 p{
                     color: #4F5665;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 30px;
+                    margin: 5px 0;
                 }
             }
         }

@@ -2,9 +2,11 @@
 body {
   font-family: Rubik, sans-serif;
   line-height: 1.5;
-  margin: 0 150px;
 }
 
+header {
+  margin: 0 150px;
+}
 header .menushka {
   display: flex;
   align-items: center;
@@ -12,7 +14,10 @@ header .menushka {
   color: #4F5665;
 }
 header .menushka .lefttop {
-  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
 }
 header .menushka .lefttop p {
   width: 104px;
@@ -56,6 +61,9 @@ header .menushka .right .signup {
   background-color: transparent;
 }
 
+main {
+  margin: 0 150px;
+}
 main .main1 {
   padding: 100px 0;
   display: flex;
@@ -419,6 +427,7 @@ main .main6 .doown .default {
 main .main6 .boxes {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 main .main6 .boxx1 {
   width: 400px;
@@ -525,7 +534,7 @@ main .main7 button {
 footer {
   width: 1440px;
   height: 600px;
-  padding: 185px 150px 100px 150px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -592,11 +601,11 @@ footer .lastcont .lastcont1 h2 {
 footer .lastcont .lastcont1 .silka {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 footer .lastcont .lastcont1 .silka p {
   color: #4F5665;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+  margin: 5px 0;
 }/*# sourceMappingURL=style.css.map */
